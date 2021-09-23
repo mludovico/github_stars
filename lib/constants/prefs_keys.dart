@@ -1,0 +1,1 @@
+const kAccessTokenPrefsKey = 'access-token';
