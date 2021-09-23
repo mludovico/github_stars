@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:github_stars/app/list/data/list_remote_datasource.dart';
+import 'package:github_stars/app/list/data/list_remote_datasource_impl.dart';
 import 'package:github_stars/app/list/domain/repositories/list_repository.dart';
 import 'package:github_stars/app/list/domain/usecases/search_users_impl.dart';
 import 'package:github_stars/app/list/infra/datasources/list_remote_datasource.dart';

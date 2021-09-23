@@ -8,7 +8,7 @@ class ListRemoteDatasourceImpl implements ListRemoteDatasource {
   final Dio dio;
   final String server;
   String query = '''query (\$text: String!) {
-  search (query: \$text, type: USER, first: 2) {
+  search (query: \$text, type: USER, first: 10) {
     nodes {
       ... on User {
         name 
@@ -18,7 +18,7 @@ class ListRemoteDatasourceImpl implements ListRemoteDatasource {
         location 
         email 
         url 
-        starredRepositories (first: 2) {
+        starredRepositories (first: 10) {
           nodes {
             name 
             description 

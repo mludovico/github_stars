@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:github_stars/app/errors/errors.dart';
-import 'package:github_stars/app/list/data/list_remote_datasource.dart';
+import 'package:github_stars/app/list/data/list_remote_datasource_impl.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
