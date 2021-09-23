@@ -12,7 +12,7 @@ import 'list_usecase_test.mocks.dart';
 
 @GenerateMocks([ListRepository])
 void main() {
-  final repository = MockRepository();
+  final repository = MockListRepository();
 
   group('Search User by text use case tests', () {
     final useCase = SearchUsersImpl(repository);
