@@ -26,5 +26,5 @@ const kAccessToken = '{YOUR MANUALLY OBTAINED ACCESS_TOKEN}}';
 Now get dependencies and run. The first time you'll have to login with a github account and grant permission 
 to read user email info. You'll navigate to the list page where you can query user's name and nickname.
 Choose one in the suggested list and it should show user details and starred repos. Search suggestion list 
-and starred repos are limited by 10, though it is hardcoded it can be changed in the [list_remote_datasource_impl.dart](https://github.com/mludovico/github_stars/blob/main/lib/app/list/data/list_remote_datasource.dart#L11-L21)
+and starred repos are limited by 10, though it is hardcoded it can be changed in the [list_remote_datasource_impl.dart](https://github.com/mludovico/github_stars/blob/main/lib/app/list/data/list_remote_datasource_impl.dart#L11-L21)
 query at build time.
